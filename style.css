@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Bright-Melody';
+    src: url('assets/font/Bright\ Melody\ Display\ Typeface.otf') format('opentype');
+}
+
+h1,h2,h3,h4{
+    font-family: 'Bright-Melody';
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    color: #545454;
+}
+a{
+    position: relative;
+}
+li, ul{
+    font-family: 'Poppins';
+    font-weight:600;
+}
+a, li, ul{
+    text-decoration: none;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.bg-yellow{
+    background-color: #F2C53D;
+}
+.bg-green{
+    background-color: #21A663;
+}
+.bg-violet{
+    background-color: #9305F2;
+}
+.bg-violet-clair{
+    background-color: #C763F2;
+}
+.bg-violet{
+    background-color: #9305F2;
+}
+.bg-grey{
+    background-color: #545454;
+}
+.bg-orange{
+    background-color: #D97904;
+}
+.nav-link-custom{
+    display: block;
+    padding: var(--mdb-nav-link-padding-y) var(--mdb-nav-link-padding-x);
+    font-size: var(--mdb-nav-link-font-size);
+    font-weight: var(--mdb-nav-link-font-weight);
+    color: var(--mdb-nav-link-color);
+    background: none;
+    border: 0;
+    padding: 0 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button1{
+    background-color: #9305F2;
+    color: #fff;
+    font-family: 'Bright-Melody';
+    padding: 6px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button2{
+    background-color: #21A663;
+    color: #fff;
+    font-family: 'Bright-Melody';
+    padding: 6px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.label-custom{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+
+.input-custom{
+    background-color: gray;
+    width: 600px;
+}
+
+.statistics-container{
+    background-color: #d3ede0;
+    border-radius: 10px;
+}
+
+.picto{
+    height: 120px;
+    width: 120px;
+}
